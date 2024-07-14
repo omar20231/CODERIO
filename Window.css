@@ -1,0 +1,56 @@
+body{
+    background-color:lightcyan;
+}
+.background{
+    background-image:url("./window.clean\(1\).jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.centre{
+    width: 50%;
+    margin:  auto;
+    position: relative;
+    top: 200px;
+    color: #FF5A5F;
+}
+button{
+    position: relative;
+    left: 20%;
+    right: 10%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+li{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.boxes{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box-1{
+    border: 1px solid black;
+    height: 120px;
+    width: auto;
+    padding: 5px;
+}
+.box-2{
+    border: 1px solid black;
+    padding: 5px;
+}
+.box-3{
+    border: 1px solid black;
+    padding: 5px;
+}
